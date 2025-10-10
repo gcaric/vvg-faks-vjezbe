@@ -1,0 +1,10 @@
+
+<body>
+    <h1>Formula 1 lansira novi web i mobilnu aplikaciju</h1>
+    <h2>Poboljšano korisničko iskustvo za fanove</h2>
+    <p>Prema objavi na službenom portalu <a href="https://www.formula1.com/">Formula1.com</a>, Formula 1 je lansirala svoj novi web i personaliziranu mobilnu aplikaciju kako bi platforme bile lakše za navigaciju i omogućile fanovima da prilagode svoje iskustvo.  
+       Novi dizajn promovira i video sadržaje te uvodi formate prilagođene mobilnim korisnicima, kao što su vertikalni videozapisi i “stories” formati. :contentReference[oaicite:0]{index=0}</p>
+    <p>Osim toga, aplikacija omogućava praćenje performansi timova i vozača tijekom sesija, kao i pristup ključnim podacima uživo (telemetrija, vremenska prognoza, rezultati utrka).  
+        Naglašena je i pristupačnost: podrška za režime svjetla/tamno i prilagođavanje veličine fonta kako bi sadržaj bio dostupan široj publici. :contentReference[oaicite:1]{index=1}</p>
+</body>
+

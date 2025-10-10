@@ -1,0 +1,9 @@
+<body>
+    <h1>Uzbuđenja u novoj sezoni Formule 1</h1>
+    <h2>Brzina, taktika i tehnologija</h2>
+    <p>Nova sezona Formule 1 donosi mnogo promjena, uključujući poboljšane bolide, nova pravila i žestoku konkurenciju među timovima. Fanovi diljem svijeta s nestrpljenjem prate svaki krug i svaki potez vozača.
+    <p>Poseban naglasak stavljen je na sigurnost vozača, kao i na održivost sporta kroz uvođenje novih tehnologija koje smanjuju emisije CO₂. Također, mladi talenti dobijaju priliku pokazati svoje vještine na velikoj sceni.
+    </p>
+    <img src="https://www.formula1.com/en/drivers/oscar-piastri" alt="F1 Oscar Piastri - apsolutna putanja" width="600">
+    <img src="images/f1-car.jpg" alt="F1 bolid - relativna putanja" width="600">
+</body>
