@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="hr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Uzbuđenja u novoj sezoni Formule 1</title>
+</head>
+<body>
+  <header>
+    <h1>Uzbuđenja u novoj sezoni Formule 1</h1>
+    <h2>Brzina, taktika i tehnologija</h2>
+  </header>
+  <main>
+    <p>Nova sezona Formule 1 donosi mnogo promjena, uključujući poboljšane bolide, nova pravila i žestoku konkurenciju među timovima. Fanovi diljem svijeta s nestrpljenjem prate svaki krug i svaki potez vozača.</p>
+    <p>Poseban naglasak stavljen je na sigurnost vozača, kao i na održivost sporta kroz uvođenje novih tehnologija koje smanjuju emisije CO₂. Također, mladi talenti dobijaju priliku pokazati svoje vještine na velikoj sceni.</p>
+    <figure>
+      <a href="https://commons.wikimedia.org/wiki/File:2025_Japan_GP_-_McLaren_-_Oscar_Piastri_-_FP1.jpg" target="_blank" rel="noopener noreferrer">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/2025_Japan_GP_-_McLaren_-_Oscar_Piastri_-_FP1.jpg/640px-2025_Japan_GP_-_McLaren_-_Oscar_Piastri_-_FP1.jpg"
+             alt="Oscar Piastri u bolidu" width="320">
+      </a>
+      <figcaption>Oscar Piastri — McLaren vozač tijekom 2025 Japan GP. (Izvor: Wikimedia Commons, CC BY‑SA)</figcaption>
+    </figure>
+    <figure>
+      <a href="https://commons.wikimedia.org/wiki/File:FIA_F1_Austria_2024_Nr._81_Piastri.jpg" target="_blank" rel="noopener noreferrer">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/FIA_F1_Austria_2024_Nr._81_Piastri.jpg/640px-FIA_F1_Austria_2024_Nr._81_Piastri.jpg"
+             alt="F1 bolid na stazi s Piastrijem" width="320">
+      </a>
+      <figcaption>Piastriov bolid na utrci u Austriji 2024. (Izvor: Wikimedia Commons, CC BY‑SA)</figcaption>
+    </figure>
+  </main>
+  <footer>
+    <p>Autor: Gabriel Carić</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="hr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Vježba 4 i 5 — Popis mobitela</title>
+<style>
+body{font-family:Arial,Helvetica,sans-serif; background:#f5f5f5; margin:40px}
+h1,h2{font-family:Georgia,'Times New Roman',serif;}
+.container{max-width:900px; margin:0 auto; background:#fff; padding:25px; border-radius:6px; box-shadow:0 4px 15px rgba(0,0,0,0.1)}
+table{border-collapse:collapse; width:100%; margin-top:15px}
+table,th,td{border:2px solid #444}
+th,td{text-align:center; padding:8px}
+th{background:#eee}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>Vježba 4 — Popis mobitela</h1>
+<table>
+<tr>
+<th>Samsung</th>
+<th>Apple</th>
+<th>Huawei</th>
+<th>Panasonic</th>
+</tr>
+<tr>
+<td>Galaxy A3</td>
+<td>iPhone 6</td>
+<td>Holly 4 plus</td>
+<td>Elluga Ray 500</td>
+</tr>
+<tr>
+<td>Galaxy S4</td>
+<td>iPhone 7</td>
+<td>Mate 10 Lite</td>
+<td>Elluga Ray 700</td>
+</tr>
+<tr>
+<td>Galaxy S5</td>
+<td>iPhone 8</td>
+<td>Mate 10 Pro</td>
+<td>Elluga I4</td>
+</tr>
+<tr>
+<td>Galaxy S6</td>
+<td>iPhone 8 plus</td>
+<td>Enjoy 7S</td>
+<td>P99</td>
+</tr>
+<tr>
+<td>Galaxy S9</td>
+<td>iPhone X</td>
+<td>Nova 2S</td>
+<td>Elluga A4</td>
+</tr>
+</table>
+</div>
+</body>
+</html>
