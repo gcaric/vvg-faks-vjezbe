@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <title>Primjer video elemenata</title>
+</head>
+<body>
+
+    <h1>Primjer umetanja videa na web stranicu</h1>
+
+    <h2>1. Video pomoću HTML5 &lt;video&gt; elementa</h2>
+    <p>Ovaj video je lokalno pohranjen i reproducira se putem HTML5 <code>&lt;video&gt;</code> elementa.</p>
+
+    <video width="480" controls>
+        <source src="C:\Users\Cara\Desktop\307864_small.mp4" type="video/mp4">
+        Vaš preglednik ne podržava video element.
+    </video>
+
+    <hr>
+
+    <h2>2. Video pomoću &lt;iframe&gt; elementa sa YouTube servisa</h2>
+    <p>Ovaj video je umetnut s YouTube platforme pomoću <code>&lt;iframe&gt;</code> elementa.</p>
+
+    <iframe width="480" height="270"
+        src="https://www.youtube.com/watch?v=6stlCkUDG_s&list=PL4Gr5tOAPttLOY9IrWVjJlv4CtkYI5cI"
+        title="Video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+    </iframe>
+
+</body>
+</html>
