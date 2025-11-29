@@ -1,21 +1,19 @@
-/* Fokus na polju */
+
 input:focus, textarea:focus, select:focus {
   border: 2px solid blue;
   background-color: #eef;
 }
 
-/* Označeni checkbox/radio */
 input:checked {
   outline: 2px solid green;
 }
 
-/* Onemogućeno polje */
 input:disabled {
   background-color: #ccc;
   color: #666;
 }
 
-/* Omogućeno polje */
 input:enabled {
   background-color: #fff;
+
 }
