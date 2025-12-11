@@ -1,0 +1,218 @@
+
+
+* { box-sizing: border-box; }
+
+body {
+  font-family: "Roboto", system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+  margin: 24px;
+  color: #222;
+  background-color: #f4f4f8;
+}
+
+h1, h2, .section-title {
+  font-family: "Lobster", Georgia, serif;
+  color: #204c90;
+}
+
+
+
+.site-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+  margin: 0 0 1.5rem 0;
+}
+
+.site-nav a {
+  text-decoration: none;
+  padding: 0.5rem 0.75rem;
+  border-radius: 8px;
+  transition: transform 120ms ease, box-shadow 120ms ease, background-color 120ms;
+  color: #1a1a1a;
+  font-weight: 600;
+  outline: none;
+}
+
+.site-nav a:hover { transform: translateY(-3px); box-shadow: 0 6px 14px rgba(0,0,0,0.08); }
+.site-nav a:focus { box-shadow: 0 0 0 3px rgba(30,144,255,0.25); }
+.site-nav a:active { transform: translateY(0); opacity: 0.85; }
+.site-nav a:visited { color: #4b4b4b; }
+
+.site-nav a[target="_blank"]::after {
+  content: " ↗";
+  font-size: 0.85em;
+  opacity: 0.7;
+}
+
+.site-nav a[href$=".html"] {
+  background-color: rgba(240,240,250,0.7);
+}
+
+
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+
+
+.contact-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  max-width: 800px;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #ffcc00;
+  margin-top: 20px;
+}
+
+.contact-form label { 
+  display: block; 
+  font-weight:600; 
+  margin-top:8px; 
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form select,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 2px solid #ccc;
+  transition: border-color .2s, box-shadow .2s, background .2s;
+  margin-bottom: 8px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus,
+.contact-form select:focus {
+  outline: none;
+  border-color: #1f6feb;
+  box-shadow: 0 0 0 3px rgba(31,111,235,0.25);
+  background: #f3f9ff;
+}
+
+.contact-form input:disabled {
+  background: #eee;
+  color: #777;
+}
+
+.contact-form fieldset {
+  grid-column: 1 / -1;
+  border: 2px solid #ddd;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.checkbox { grid-column: 1 / -1; }
+
+.form-actions { 
+  grid-column: 1 / -1; 
+  display:flex; 
+  gap:12px; 
+  margin-top:8px; 
+}
+
+button { 
+  padding: 10px 14px; 
+  border-radius:8px; 
+  border: none; 
+  cursor: pointer; 
+  background: #1f6feb; 
+  color: white; 
+  font-weight:600; 
+  transition: background .2s, transform .1s;
+}
+
+button:hover { background: #195dcc; }
+button:active { transform: translateY(1px); }
+
+
+.lego-gallery {
+    max-width: 1100px;
+    margin: 20px auto;
+    padding: 24px;
+    background: #ffffff;
+    border: 2px solid #ffcc00;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.lego-gallery h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.lego-gallery p {
+    text-align: center;
+    margin-bottom: 24px;
+    color: #444;
+}
+
+.lego-gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 20px;
+}
+
+.gallery-item {
+    background: #fafafa;
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+
+.gallery-item img {
+    width: 100%;
+    display: block;
+    height: 180px;
+    object-fit: cover;
+}
+
+
+.gallery-item figcaption {
+    padding: 12px;
+    text-align: center;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #333;
+}
+
+
+.gallery-item[data-set="city"] {
+    border-color: #4285f4;
+}
+
+.gallery-item[data-set="technic"] {
+    border-color: #e67e22;
+}
+
+.gallery-item[data-set="friends"] {
+    border-color: #ff7eb9;
+}
+
+
+.gallery-item:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 28px rgba(0,0,0,0.15);
+    border-color: #1f6feb;
+}
+
+
+
+footer { 
+  margin-top: 40px; 
+  color: #666; 
+  font-size: 0.95rem; 
+}
+
+
